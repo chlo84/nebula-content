@@ -1,0 +1,27 @@
+
+h1{
+    background-color: purple;
+    border-radius: 10px;
+    border: 3px black
+}
+h2{
+   background-color:blue; 
+}
+h3{
+    background-color:burlywood
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    
+}
+.grid{
+    display:grid;
+    justify-content: left;
+    column-gap: 30px;
+   grid-template-columns: auto auto; 
+
+}
+.grid img{
+    width: 100%;
+}

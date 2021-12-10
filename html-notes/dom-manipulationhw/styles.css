@@ -1,0 +1,23 @@
+.color1{
+    border: 5px solid green;
+    background-color: purple;
+    height: 700px; 
+    width: 1200px; 
+    display:flex;
+    /* flex-direction: row; */
+    justify-content: left;
+    flex-wrap: wrap;
+
+    }
+
+.color2{
+    height: 200px;
+    width: 200px;
+    border: solid red;
+    
+
+}
+
+
+
+
