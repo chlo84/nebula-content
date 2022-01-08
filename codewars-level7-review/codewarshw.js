@@ -30,24 +30,18 @@ function doubleNumbers(arr) {
     return outputArray;
     
     }
-    // Data-Conversionslet 
-    newString = 'ABC123';
+    // Data-Conversions
+    let newString = 'ABC123';
     // turn an string into an array// here because the string is an empty string it will be split up by characterlet 
-    charactersInString = newString.split('');
-    console.log(charactersInString); // ['A','B','C',1, 2, 3]// Conversion a number to a stringlet number = 123.315;let string1 = `${number}`;let string2 = '' + number;let string3 = number.toString();
-    console.log(string1, string2, string3);// Converting a string to a numberlet money = '4.99';let number1 = +money;let number2 = parseInt(money);let number3 = Number(money);
-    console.log(number1, number2, number3);
     
-
-let string = 'Hello World';// console.log(string[0]) // 'H';let array = [1, 'abc', 54, [3]];// console.log(array[1]) // 'abc' second element in array// We can also access the last element in an array (or last character in a string) using brackets and length// console.log(string[string.length - 1]) // 'd';// console.log(array[array.length - 1]) // [3];// --Accumulator// build up an output to get towards a soloution// building a function that takes an incoming array and doubles itfunction doubleNumbers(arr) {// create output, since output of this function will be an array start it as an empty arraylet outputArray = [];// go through each element in the arrayfor(let i = 0; i < arr.length; i++) {// take the current number in this loop(arr[i]) multiply it by 2// put that into our output arrayoutputArray.push(arr[i] * 2);}// return the output outside of the for loopreturn outputArray;}
-// star 1
-
-
-// Data-Conversionslet newString = 'ABC123';// turn an string into an array// here because the string is an empty string it will be split up by characterlet charactersInString = newString.split('');// console.log(charactersInString); // ['A','B','C',1, 2, 3]// Conversion a number to a stringlet number = 123.315;let string1 = `${number}`;let string2 = '' + number;let string3 = number.toString();// console.log(string1, string2, string3);// Converting a string to a numberlet money = '4.99';let number1 = +money;let number2 = parseInt(money);let number3 = Number(money);// console.log(number1, number2, number3);
-
-
-
-
+    charactersInString = newString.split('');
+    console.log(charactersInString); // ['A','B','C',1, 2, 3]
+    // Conversion a number to a string
+    let number = 123.315;let string1 = `${number}`;let string2 = '' + number;let string3 = number.toString();
+    console.log(string1, string2, string3);
+    // Converting a string to a number
+    let money = '4.99';let number1 = +money;let number2 = parseInt(money);let number3 = Number(money);
+    console.log(number1, number2, number3);
 
 
 // write a function that takes in an array and returns the 2nd and 5 element in an array added together
