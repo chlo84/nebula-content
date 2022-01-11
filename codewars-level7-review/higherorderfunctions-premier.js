@@ -16,3 +16,9 @@ function isRubyComing(list) {
   }
      return output 
     } 
+
+    function greetDevelopers(list) {
+        list.forEach(greet=> greet.greeting= `Hi ${greet.firstName}, what do you like the most about ${greet.language}?`)
+        return list
+      }
+      
