@@ -8,20 +8,26 @@
 // what it looks like using map
 // const mapOver = [1,2,3,4,5].map(doubler)
 
-const minNums = ['1','2','3','4','5'];
-const allNums = minNums.map(minNums => doubler + minNums);
-console.log(allNums)
+const minNums = [1,2,3,4,5];
+const doubler = minNums.map(before => before *2);
+// const allNums = minNums.map(minNums => doubler + minNums);
 
 
+const halves = minNums.map(before => before *.5);
+const pow = minNums.map(before => before * before);
 
+console.log(doubler, halves, pow)
 // 2.   Write a higher order function that calculates some features of a string
 //      Ex: stringInfo(length, 'Howdy Partner!') => 14
 //      Ex: stringInfo(vowels, 'Howdy Partner!') => 3
 //      Ex: stringInfo(capitals, 'Howdy Partner!') => 2
 //      Ex: stringInfo(nonLetters, 'Howdy Partner!') => 2
 
-const myStr = 'Howdy Partner!'
-let output1 = (myStr.reduce((accumalter)))
+// const myStr = 'Howdy Partner!'
+// let output1 = (myStr.reduce((accumalter)))
+
+
+
 
 
 // 3.   Write a higher order function that minimizes a given list of numbers into one number
